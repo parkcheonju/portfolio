@@ -1,0 +1,132 @@
+/*================= Section1 start =================*/
+.Section1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.Section1_right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: bisque;
+}
+.Section1_container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Section1_left {
+  position: absolute;
+  padding-right: 20px;
+  top: 50%;
+  background-color: floralwhite;
+  transform: translateY(-50%);
+}
+.Section1_left-name {
+  width: 100%;
+  height: auto;
+}
+.Section1_left-bottom {
+  width: 100%;
+  transform: translateY(-250%);
+}
+.Section1_left-top h3 {
+  position: relative;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.2;
+  overflow: hidden;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+.Section1_left-bottom {
+  width: 100%;
+  height: auto;
+}
+.Section1_left-job {
+  position: relative;
+  font-size: 17px;
+  font-weight: 500;
+  overflow: hidden;
+}
+/*================= Section1 end =================*/
+
+.Section2 {
+  height: auto;
+  padding: 150px 0;
+  width: 100%;
+  display: flex;
+  background-color: gainsboro;
+}
+.Section2_container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+  background-color: cornsilk;
+}
+.Section2_inner {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: flex;
+}
+.Section2_left {
+  width: 50%;
+  padding-right: 50px;
+}
+.Section2_right {
+  width: 50%;
+  padding-right: 50px;
+}
+.Section2_right-title {
+  width: 100%;
+  height: auto;
+}
+.Section2_right-title span {
+  display: inline-block;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.Section2_right-title h3 {
+  font-weight: 800;
+  line-height: 1.4;
+}
+.Section2_right-text {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  padding-top: 27px;
+}
+.Section2_right-site{
+  width: 100%;
+  height: auto;
+}
+.Section2_right-button a{
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+  padding: 13px 48px;
+  transition: all .5s cubic-bezier(0,0,.1,1);
+
+}
+.Section2_right-button a:hover{
+  background-color: transparent;
+  color: #000;
+  transform: translateY(-3px);
+}

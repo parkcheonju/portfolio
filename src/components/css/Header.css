@@ -1,0 +1,17 @@
+.Header{
+  height: 50px;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gainsboro;
+}
+.Header_logo-img img{
+  width: 80px;
+}
+.Header_nav{
+  display: flex;
+}
+.Header_nav-menu{
+  margin-right: 25px;
+}
