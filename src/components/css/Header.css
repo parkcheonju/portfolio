@@ -1,17 +1,35 @@
-.Header{
-  height: 50px;
-  padding: 25px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: gainsboro;
+.Header {
+  background-color: pink;
 }
-.Header_logo-img img{
-  width: 80px;
+.Header_inner {
+  max-width: 1550px;
+  height: 132px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.Header_logo{
+  margin-left: 5px;
 }
 .Header_nav{
+  width: 91%;
   display: flex;
 }
-.Header_nav-menu{
-  margin-right: 25px;
+.Header_nav-container{
+  width: 400px;
+  margin-left: 100px;
+  display: flex;
+}
+.Header_nav-info{
+  width: 100px;
+  text-align: center;
+}
+.Header_menu {
+  width: 9%;
+  display: flex;
+  justify-content: space-between;
+}
+#color-white{
+  color: white;
 }
