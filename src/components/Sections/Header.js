@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="Header">
       <div className="Header_inner">
-        <div className='Header_logo'><img src='/images/logo.png' /></div>
+        <div className='Header_logo'><img src='/images/logo.png' alt='logo'/></div>
         <div className="Header_nav">
           <div className='Header_nav-container'>
             <div className='Header_nav-info' id='color-white'>HOME</div>
