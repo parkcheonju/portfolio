@@ -1,11 +1,13 @@
+.Section2{
+  margin: 160px 0;
+}
 .Section2_inner {
   max-width: 1550px;
-  height: 690px;
+  height: 100%;
   margin: 0 auto;
 }
 .Section2_comtainer {
-  height: 100%;
-  padding: 160px 0;
+  height: 690px;
   display: flex;
 }
 .Section2_left {
