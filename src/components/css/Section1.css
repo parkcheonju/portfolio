@@ -10,7 +10,7 @@
 }
 
 .Section1_container{
-  height: 1500px;
+  height: 1300px;
   display: flex;
   margin: 80px 0 200px 0;
 }
@@ -19,7 +19,6 @@
   width: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .Section1_right {
@@ -33,29 +32,26 @@
 
 .Section1_left-title h1 {
   font-size: 230px;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: -0.07em;
 }
 
 .Section1_left-text1 {
   width: 80%;
-  height: 120px;
   margin-left: 20px;
   align-items: center;
 }
 
 .Section1_left-text1 p {
-  font-size: 40px;
+  font-size: 2.6rem;
   font-weight: 700;
   line-height: 1.3;
-  margin: 0 0 1.875rem;
   color: white;
 }
 
 .Section1_left-text2 {
   width: 80%;
-  height: 170px;
-  padding-top: 100px; 
-  margin-left: 20px;
+  margin: 130px 0 0 20px;
 }
 
 .Section1_left-text2 p {
@@ -63,34 +59,29 @@
   line-height: 1.1;
   font-weight: 700;
   color: white;
-  margin: 0 0 1.875rem;
 }
 
 .Section1_left-text3 {
   width: 50%;
-  padding: 100px 0 20px 0;
   border-bottom: 2px solid black;
-  margin-left: 20px;
+  margin: 150px 0 70px 20px;
 }
 
 .Section1_left-text4 {
   width: 50%;
-  height: 100px;
-  padding-top: 70px;
+  height: 200px;
   margin-left: 20px;
 }
 
 .Section1_left-text4 p {
   font-size: 1.5rem;
   line-height: 1.4;
-  margin: 0 0 1.875rem;
 }
 
 .Section1_left-site {
   width: 50%;
-  height: 100px;
-  padding-top: 80px;
-  margin: 100px 0 0 20px;
+  height: 150px;
+  margin: 70px 0 0 20px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
