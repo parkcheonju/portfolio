@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Sections.css";
+import "../css/Section1.css";
 
 export default function Section1() {
   return (
