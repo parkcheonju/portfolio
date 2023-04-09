@@ -1,4 +1,6 @@
 .Header {
+  width: 100%;
+  position: fixed;
   background-color: #e03d24;
 }
 .Header_inner {
