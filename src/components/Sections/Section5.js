@@ -9,7 +9,7 @@ export default function Section5() {
           <div className="Section5_left">
             <div className="Section5_left-title">
               <h2>
-                my
+                My
                 <br />
                 history
               </h2>

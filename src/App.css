@@ -62,3 +62,14 @@ a {
   text-decoration: none;
   color: inherit;
 } 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  height: 10%;
+  background: #fa4529;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, .1); 
+}
