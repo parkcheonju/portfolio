@@ -1,3 +1,6 @@
+.Section3{
+  background-color: #fa4529;
+}
 .Section3_inner {
   max-width: 1550px;
   height: 100%;
@@ -46,11 +49,12 @@
 }
 .Section3_item-title{
   margin-top: 30px;
-  color: #666;
+  color: white;
   font-size: 1rem;
   text-transform: uppercase;
 }
 .Section3_item-description{
+  color: white;
   margin-top: 10px;
 }
 .Section3_item-description h4{
