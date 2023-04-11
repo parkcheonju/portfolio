@@ -44,12 +44,18 @@
   width: 100%;
   height: 100%;
 }
-
+.Section3_item-text{
+  color: #666;
+}
+.Section3_item-text:hover{
+  color: black;
+}
 .Section3_item-title {
   margin-top: 30px;
   font-size: 1rem;
   text-transform: uppercase;
 }
+
 .Section3_item-description {
   margin-top: 10px;
 }
@@ -58,7 +64,6 @@
   font-weight: 700;
   line-height: 1.3;
 }
-
 @media (min-width: 1580px) {
   .container-xxl {
     max-width: 1550px;

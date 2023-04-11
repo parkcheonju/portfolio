@@ -33,10 +33,15 @@
 }
 .Header_menu {
   display: none;
-  width: 9%;
+  width: 120px;
   display: flex;
   justify-content: space-between;
 }
+.Header_menu img{
+  width: 25px;
+  height: 25px;
+}
+
 #color-white{
   color: white;
 }

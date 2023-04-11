@@ -19,8 +19,8 @@ export default function Header() {
           </div>
         </div>
         <div className="Header_menu">
-          <div>search</div>
-          <div>menu</div>
+          <img src='/images/search.png' alt='search'/>
+          <img src='/images/list.png' alt='list'/>
         </div>
       </Container>
     </div>

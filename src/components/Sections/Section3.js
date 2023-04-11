@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "../css/Section3.css";
 
 export default function Section3() {
@@ -22,27 +22,33 @@ export default function Section3() {
                 <div className="Section3_bottom-item">
                   <img src="/images/work-1.png" alt="work_data" />
                 </div>
-                <div className="Section3_item-title">UI/UX</div>
-                <div className="Section3_item-description">
-                  <h4>Liarch Architecture Firm</h4>
+                <div className="Section3_item-text">
+                  <div className="Section3_item-title">UI/UX</div>
+                  <div className="Section3_item-description">
+                    <h4>Liarch Architecture Firm</h4>
+                  </div>
                 </div>
               </div>
               <div className="Section3_bottom-card">
                 <div className="Section3_bottom-item">
                   <img src="/images/work-2.png" alt="work_data" />
                 </div>
-                <div className="Section3_item-title">UI/UX</div>
-                <div className="Section3_item-description">
-                  <h4>Taskly Dashboard</h4>
+                <div className="Section3_item-text">
+                  <div className="Section3_item-title">UI/UX</div>
+                  <div className="Section3_item-description">
+                    <h4>Taskly Dashboard</h4>
+                  </div>
                 </div>
               </div>
               <div className="Section3_bottom-card">
                 <div className="Section3_bottom-item">
                   <img src="/images/work-3.png" alt="work_data" />
                 </div>
-                <div className="Section3_item-title">Product</div>
-                <div className="Section3_item-description">
-                  <h4>Film & Art Festival</h4>
+                <div className="Section3_item-text">
+                  <div className="Section3_item-title">Product</div>
+                  <div className="Section3_item-description">
+                    <h4>Film & Art Festival</h4>
+                  </div>
                 </div>
               </div>
             </div>
