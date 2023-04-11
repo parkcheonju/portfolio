@@ -1,5 +1,4 @@
 .Section2{
-  padding: 160px 0;
   background-color: #fa4529;
 }
 .Section2_inner {
@@ -10,6 +9,7 @@
 .Section2_comtainer {
   height: 690px;
   display: flex;
+  padding: 160px 0;
 }
 .Section2_left {
   width: 30%;

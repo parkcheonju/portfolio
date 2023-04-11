@@ -10,26 +10,31 @@
   display: flex;
   align-items: center;
 }
-.Header_logo{
+.Header_logo {
   margin-left: 5px;
 }
-.Header_nav{
+.Header_logo img {
+  width: 180px;
+}
+
+.Header_nav {
   width: 91%;
   display: flex;
+  justify-content: flex-end;
 }
-.Header_nav-container{
+.Header_nav-container {
   width: 400px;
-  margin-left: 100px;
   display: flex;
 }
-.Header_nav-info{
+.Header_nav-info {
   width: 100px;
   text-align: center;
 }
 .Header_menu {
+  display: none;
   width: 9%;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 /*#color-white{
   color: white;

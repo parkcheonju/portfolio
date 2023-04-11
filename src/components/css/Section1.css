@@ -2,18 +2,19 @@
 .Section1_inner {
   max-width: 1550px;
   height: 100%;
+  padding: 160px 0;
   margin: 0 auto;
   display: flex;
 }
 
 .Section1_container{
-  height: 1300px;
+  width: 100%;
   display: flex;
-  margin: 190px 0 200px 0;
 }
 
 .Section1_left {
   width: 70%;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -23,18 +24,18 @@
 }
 
 .Section1_left-title {
-  width: 80%;
+  width: 90%;
   margin-left: 20px;
 }
 
 .Section1_left-title h1 {
-  font-size: 230px;
-  font-weight: 700;
-  letter-spacing: -0.07em;
+  font-size: 14.375rem;
+  letter-spacing: -.05em;
 }
 
 .Section1_left-text1 {
   width: 80%;
+  padding-top: 30px;
   margin-left: 20px;
   align-items: center;
 }
@@ -64,7 +65,7 @@
 
 .Section1_left-text4 {
   width: 50%;
-  height: 200px;
+  height: 170px;
   margin-left: 20px;
 }
 
@@ -75,8 +76,7 @@
 
 .Section1_left-site {
   width: 50%;
-  height: 150px;
-  margin: 70px 0 0 20px;
+  padding: 110px 0 0 20px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
