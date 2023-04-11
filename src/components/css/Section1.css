@@ -95,6 +95,7 @@
 }
 
 .Section1_left-text4 p {
+  max-width: 545px;
   font-size: 1.5rem;
   line-height: 1.4;
 }
@@ -123,5 +124,27 @@
 @keyframes rotate_image {
   100% {
     transform: rotate(360deg);
+  }
+}
+
+
+@media (min-width: 1580px){
+  .container-xxl {
+    max-width: 1550px;
+  }
+}
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1200px){ 
+  .col-xl-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
   }
 }

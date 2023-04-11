@@ -1,12 +1,13 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import "../css/Section2.css";
 
 export default function Section2() {
   return (
     <div className="Section2">
-      <div className="Section2_inner">
-        <div className="Section2_comtainer">
-          <div className="Section2_left">
+      <Container fluid="xxl" className="Section2_inner">
+        <Row className="Section2_comtainer">
+          <Col lg="3" className="Section2_left">
             <div className="Section2_left-title">
               <h2>
                 Our
@@ -17,8 +18,8 @@ export default function Section2() {
             <div className="Section2_left-text">
               <p>We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers and growing overall sales.</p>
             </div>
-          </div>
-          <div className="Section2_right">
+          </Col>
+          <Col lg="8" className="Section2_right offset-lg-1">
             <div className="Section2_right-container">
               <div className="Section2_right-item">
                 <img src="/images/brand.png" alt="icon" />
@@ -85,9 +86,9 @@ export default function Section2() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

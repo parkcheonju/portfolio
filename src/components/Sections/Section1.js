@@ -1,12 +1,13 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import "../css/Section1.css";
 
 export default function Section1() {
   return (
     <div className="Section1">
-      <div className="Section1_inner">
-        <div className='Section1_container'>
-          <div className="Section1_left">
+      <Container fluid="xxl" className="Section1_inner">
+        <Row className="Section1_container">
+          <Col xl="9" className="Section1_left">
             <div className="Section1_left-title">
               <h1>Moonex</h1>
             </div>
@@ -26,20 +27,22 @@ export default function Section1() {
             </div>
             <div className="Section1_left-text3"></div>
             <div className="Section1_left-text4">
-              <p>We help our client suceed by creating identities, digital experiences, and printmaterials that communicate clearly, achieve marketing goals &amp; look fantastic Lorem uispum dolor sit amert tunoer poea opefse ceefo goipully.</p>
+              <Col xl="8">
+                <p>We help our client suceed by creating identities, digital experiences, and printmaterials that communicate clearly, achieve marketing goals</p>
+              </Col>
             </div>
             <div className="Section1_left-site">
               <div className="Section1_left-btn">
                 <a href="#none">Learn More</a>
               </div>
             </div>
-          </div>
-          <div className="Section1_right">
-            <div className='Section1_right-top'></div>
-            <div className='Section1_right-bottom'></div>
-          </div>
-        </div>
-      </div>
+          </Col>
+          <Col xl="3" className="Section1_right">
+            <div className="Section1_right-top"></div>
+            <div className="Section1_right-bottom"></div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

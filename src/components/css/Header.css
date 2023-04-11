@@ -1,8 +1,7 @@
 .Header {
   width: 100%;
-  position: fixed;
   background-color: #e03d24;
-  z-index: 1px;
+  z-index: 1;
 }
 .Header_inner {
   max-width: 1550px;
@@ -26,7 +25,6 @@
   display: flex;
 }
 .Header_nav-container {
-  width: 400px;
   display: flex;
 }
 .Header_nav-info {
@@ -41,4 +39,15 @@
 }
 #color-white{
   color: white;
+}
+
+@media (min-width: 1580px){
+  .container-xxl {
+    max-width: 1550px;
+  }
+}
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+  }
 }

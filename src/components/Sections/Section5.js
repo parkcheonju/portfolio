@@ -1,12 +1,13 @@
 import React from "react";
+import { Container,Row, Col } from "react-bootstrap";
 import "../css/Section5.css";
 
 export default function Section5() {
   return (
     <div className="Section5">
-      <div className="Section5_inner">
-        <div className="Section5_container">
-          <div className="Section5_left">
+      <Container fluid="container-xxl" className="Section5_inner">
+        <Row className="Section5_container">
+          <Col lg="4" className="Section5_left">
             <div className="Section5_left-title">
               <h2>
                 Our
@@ -17,8 +18,8 @@ export default function Section5() {
             <div className="Section5_left-text">
               <p>We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers and growing overall sales.</p>
             </div>
-          </div>
-          <div className="Section5_right">
+          </Col>
+          <Col lg="8" className="Section5_right">
             <div className="Section5_right-history Section5_pd-bottom30 Section5_pd-top30">
               <div className="Section5_history-container">
                 <div className="Section5_history-year">2021</div>
@@ -58,9 +59,9 @@ export default function Section5() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

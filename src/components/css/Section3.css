@@ -3,23 +3,23 @@
   height: 100%;
   margin: 0 auto;
 }
-.Section3_container{
+.Section3_container {
   height: 690px;
   padding-bottom: 160px;
 }
-.Section3_top{
+.Section3_top {
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Section3_top-title{
+.Section3_top-title {
   font-size: 3.5rem;
   font-weight: 600;
   line-height: 1.1;
 }
-.Section3_top-list{
+.Section3_top-list {
   display: flex;
   font-size: 1.125rem;
 }
@@ -28,33 +28,49 @@
   width: 26px;
   height: 24px;
 }
-.Section3_bottom{
+.Section3_bottom {
   margin-top: 100px;
 }
-.Section3_bottom-container{
+.Section3_bottom-container {
   height: 510px;
   display: flex;
   justify-content: space-between;
 }
-.Section3_bottom-card{
+.Section3_bottom-card {
   width: 30%;
   height: 100%;
 }
-.Section3_bottom-item img{
+.Section3_bottom-item img {
   width: 100%;
   height: 100%;
 }
 
-.Section3_item-title{
+.Section3_item-title {
   margin-top: 30px;
   font-size: 1rem;
   text-transform: uppercase;
 }
-.Section3_item-description{
+.Section3_item-description {
   margin-top: 10px;
 }
-.Section3_item-description h4{
+.Section3_item-description h4 {
   font-size: 1.875rem;
   font-weight: 700;
   line-height: 1.3;
+}
+
+@media (min-width: 1580px) {
+  .container-xxl {
+    max-width: 1550px;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
 }
