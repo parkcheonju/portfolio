@@ -1,4 +1,9 @@
-
+.Section1 {
+  background-color: #fa4529;
+  background-image: url(/public/images/background.png);
+  background-repeat: no-repeat;
+  background-position: 810px 500px;
+}
 .Section1_inner {
   max-width: 1550px;
   height: 100%;
@@ -7,7 +12,7 @@
   display: flex;
 }
 
-.Section1_container{
+.Section1_container {
   width: 100%;
   display: flex;
 }
@@ -21,6 +26,25 @@
 
 .Section1_right {
   width: 30%;
+  position: relative;
+}
+.Section1_right-top {
+  width: 100%;
+  height: 31%;
+  background-image: url(/public/images/a_marker.png);
+  background-repeat: no-repeat;
+  background-position: 100px 160px;
+}
+.Section1_right-bottom {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-image: url(/public/images/circle_text-marker.png);
+  background-repeat: no-repeat;
+  top: 160px;
+  left: 90px;
+  animation: rotate_image 12s linear infinite;
+  transform-origin: 50% 50%;
 }
 
 .Section1_left-title {
@@ -30,7 +54,7 @@
 
 .Section1_left-title h1 {
   font-size: 14.375rem;
-  letter-spacing: -.05em;
+  letter-spacing: -0.05em;
 }
 
 .Section1_left-text1 {
@@ -55,6 +79,7 @@
   font-size: 4.375rem;
   line-height: 1.1;
   font-weight: 700;
+  color: white;
 }
 
 .Section1_left-text3 {
@@ -83,8 +108,20 @@
 }
 
 .Section1_left-btn {
-  width: 80px;
+  width: 90px;
   text-align: center;
   padding: 23px 45px;
-  border: 1px solid black;
+  border-radius: 3%;
+  background-color: #e03d24;
+}
+.Section1_left-btn a {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
 }

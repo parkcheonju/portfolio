@@ -21,20 +21,20 @@ export default function Section4() {
             </div>
             <div className="Section4_bottom-approach">
               <div className="Section4_approach-title">
-                ONE
-                <h3>Research</h3>
+              TWO
+                <h3>Concept</h3>
               </div>
               <div className="Section4_approach-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.</p>
+                <p>Donec venenatis consequat libero, quis auctor nunc volutpat quis. Proin at ipsum id magna dapibus dictum eget lobortis magna. Fusce et ligula non tellus vulputate condimentum.</p>
               </div>
             </div>
             <div className="Section4_bottom-approach">
               <div className="Section4_approach-title">
-                ONE
-                <h3>Research</h3>
+              THREE
+                <h3>Strategy</h3>
               </div>
               <div className="Section4_approach-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.</p>
+                <p>Consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.</p>
               </div>
             </div>
           </div>

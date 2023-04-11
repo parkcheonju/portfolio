@@ -21,7 +21,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="Footer_contact-3">
-            <h4>Portfolio</h4>
+            <h4>View</h4>
             <ul>
               <li><a href="#none">Section1</a></li>
               <li><a href="#none">Section2</a></li>

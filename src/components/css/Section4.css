@@ -1,3 +1,6 @@
+.Section4{
+  background-color: #fa4529;
+}
 .Section4_inner{
   max-width: 1550px;
   height: 100%;
@@ -40,6 +43,7 @@
   font-size: 3.75rem;
   font-weight: 700;
   line-height: 1.2;
+  color: white;
 }
 .Section4_approach-description{
   font-size: 1.125rem;

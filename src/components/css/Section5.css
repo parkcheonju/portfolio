@@ -52,9 +52,16 @@
 }
 .Section5_history-year{
   width: 10%;
+  display: flex;
+}
+.Section5_history-year img{
+  width: 20px;
+  height: 18px;
+  margin: 1px 0 0 3px;
 }
 .Section5_history-marker{
   width: 20%;
+  height: 200px;
 }
 .Section5_history-description{
   width: 50%;

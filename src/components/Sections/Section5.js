@@ -9,9 +9,9 @@ export default function Section5() {
           <div className="Section5_left">
             <div className="Section5_left-title">
               <h2>
-                My
+                Our
                 <br />
-                history
+                Awards
               </h2>
             </div>
             <div className="Section5_left-text">
@@ -21,32 +21,41 @@ export default function Section5() {
           <div className="Section5_right">
             <div className="Section5_right-history Section5_pd-bottom30 Section5_pd-top30">
               <div className="Section5_history-container">
-                <div className="Section5_history-year">Year</div>
+                <div className="Section5_history-year">2021</div>
                 <div className="Section5_history-marker">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
+                  <img src="/images/brand_logo-3.png" alt="linkicon" />
                 </div>
-                <div className="Section5_history-description">description</div>
-                <div className="Section5_history-year">Year</div>
+                <div className="Section5_history-description">POTY 2021</div>
+                <div className="Section5_history-year">
+                  See project
+                  <img src="/images/arrow.png" alt="linkicon" />
+                </div>
               </div>
             </div>
             <div className="Section5_right-history Section5_history-line">
               <div className="Section5_history-container">
-                <div className="Section5_history-year">Year</div>
+                <div className="Section5_history-year">2020</div>
                 <div className="Section5_history-marker">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
+                  <img src="/images/brand_logo-2.png" alt="linkicon" />
                 </div>
-                <div className="Section5_history-description">description</div>
-                <div className="Section5_history-year">Year</div>
+                <div className="Section5_history-description">Best 20 Websites Favourite 2020</div>
+                <div className="Section5_history-year">
+                  See project
+                  <img src="/images/arrow.png" alt="linkicon" />
+                </div>
               </div>
             </div>
             <div className="Section5_right-history Section5_pd-top30">
               <div className="Section5_history-container">
-                <div className="Section5_history-year">Year</div>
+                <div className="Section5_history-year">2019</div>
                 <div className="Section5_history-marker">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
+                  <img src="/images/brand_logo-1.png" alt="linkicon" />
                 </div>
-                <div className="Section5_history-description">description</div>
-                <div className="Section5_history-year">Year</div>
+                <div className="Section5_history-description">1st Winner Portfolio Review US 2019</div>
+                <div className="Section5_history-year">
+                  See project
+                  <img src="/images/arrow.png" alt="linkicon" />
+                </div>
               </div>
             </div>
           </div>

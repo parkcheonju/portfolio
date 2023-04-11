@@ -1,7 +1,7 @@
 .Header {
   width: 100%;
   position: fixed;
-  border-top: 10px solid #e03d24;
+  background-color: #e03d24;
 }
 .Header_inner {
   max-width: 1550px;
@@ -9,18 +9,20 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
+  border-bottom: 2px solid black;
 }
 .Header_logo {
   margin-left: 5px;
 }
 .Header_logo img {
-  width: 180px;
+  width: 151px;
+  height: 46px;
 }
 
 .Header_nav {
   width: 91%;
+  padding-left: 130px;
   display: flex;
-  justify-content: flex-end;
 }
 .Header_nav-container {
   width: 400px;
@@ -33,9 +35,9 @@
 .Header_menu {
   display: none;
   width: 9%;
-  /* display: flex;
-  justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
 }
-/*#color-white{
+#color-white{
   color: white;
-}*/
+}

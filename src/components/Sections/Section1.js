@@ -30,12 +30,13 @@ export default function Section1() {
             </div>
             <div className="Section1_left-site">
               <div className="Section1_left-btn">
-                <a href="#none">git-hub</a>
+                <a href="#none">Learn More</a>
               </div>
             </div>
           </div>
           <div className="Section1_right">
-            
+            <div className='Section1_right-top'></div>
+            <div className='Section1_right-bottom'></div>
           </div>
         </div>
       </div>

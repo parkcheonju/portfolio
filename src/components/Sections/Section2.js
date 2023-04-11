@@ -21,7 +21,7 @@ export default function Section2() {
           <div className="Section2_right">
             <div className="Section2_right-container">
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <img src="/images/brand.png" alt="icon" />
                 <div className="Section2_right-title">
                   <h5>
                     BRAND
@@ -33,11 +33,11 @@ export default function Section2() {
                   <p> We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
                 </div>
                 <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
+                  <img src="/images/arrow.png" alt="linkicon" />
                 </div>
               </div>
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <img src="/images/uiux.png" alt="icon" />
                 <div className="Section2_right-title">
                   <h5>
                     UI/UX
@@ -49,11 +49,11 @@ export default function Section2() {
                   <p> We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
                 </div>
                 <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
+                  <img src="/images/arrow.png" alt="linkicon" />
                 </div>
               </div>
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <img src="/images/packaging.png" alt="icon" />
                 <div className="Section2_right-title">
                   <h5>
                     PACKAGING
@@ -65,11 +65,11 @@ export default function Section2() {
                   <p> We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
                 </div>
                 <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
+                  <img src="/images/arrow.png" alt="linkicon" />
                 </div>
               </div>
               <div className="Section2_right-item">
-                <img src="/images/dummyicon.png" alt="icon" />
+                <img src="/images/motion.png" alt="icon" />
                 <div className="Section2_right-title">
                   <h5>
                     MOTION VIDEO
@@ -81,7 +81,7 @@ export default function Section2() {
                   <p> We build and activate brands throung cultural insight &amp;amp; strategic vision.</p>
                 </div>
                 <div className="Section2_right-link">
-                  <img src="/images/dummyicon.png" alt="linkicon" />
+                  <img src="/images/arrow.png" alt="linkicon" />
                 </div>
               </div>
             </div>
